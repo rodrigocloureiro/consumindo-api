@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+input[type="text"], #primary, .campo {
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+input[type="text"], .campo {
+  width: 250px;
+  height: 68px;
+  border: 1px solid #FA4A0C;
+  color: #FA4A0C;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #ededed;
+  transition: 0.5s;
+}
+
+#primary {
+  width: 250px;
+  height: 70px;
+  margin-top: 10px;
+  background-color: #FA4A0C;
+  box-shadow: 0px 40px 40px rgb(0 0 0 / 7%);
+  border: none;
+  color: #FFFFFF;
+}
+
+/* #secondary {
+  width: 236px;
+  height: 68px;
+  border: 1px solid #FA4A0C;
+  border-radius: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+} */
+
+h3 {
+  color: #FA4A0C;
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  text-align: left;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+.bg-orange {
+  background-color: #FA4A0C;
+}
+
+.color-white {
+  color: #fff;
+}
